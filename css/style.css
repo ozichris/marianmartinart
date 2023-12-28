@@ -1,8 +1,17 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #FAFAFA;; /* Example background color */
+    background-color: #FAFAFA;; /* Body background color */
     font-family: 'Your Font Family', sans-serif; /* Replace 'Your Font Family' with your chosen font */
+    padding-left: 20px; /* Adjust as needed */
+    padding-right: 20px; /* Adjust as needed */ 
+}
+
+body h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 36px; /* Content Text size */  
+    color: #333333; 
 }
 
 header {
@@ -11,7 +20,7 @@ header {
     width: 100%;
     z-index: 100; /* Ensures the header stays on top of other content */
     padding: 0%;
-    background-color: #FAFAFA; /* Example background color */
+    background-color: #FAFAFA; /* Header background color */
     display: flex;
 }
 
@@ -32,13 +41,14 @@ header {
 }
 
 header h1 {
+    margin-left: 20px;
     font-family: 'Caveat', cursive;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 36px; /* Marian Martin Text size */
 }
 
 h1 a {
-    color: black;  /* Replace '#yourColor' with the hex code of your desired color */
+    color: #333333;  /* Marian Martin Text color */
     text-decoration: none;  /* This removes the underline */
 }
 
@@ -54,10 +64,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333333; /* Example link color */
+    color: #333333; /* Nav link color */
 }
 nav ul li :hover {
-    color: #909090;;
+    color: #909090; /* Nav link hover color */
 }
 
 main {
@@ -71,7 +81,7 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 100;
-    background-color: #FAFAFA; /* Example background color */
+    background-color: #FAFAFA; /* Footer background color */
     font-size: 12px;
     text-align: center;
 }

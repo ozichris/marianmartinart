@@ -30,5 +30,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Optionally, load the default content (e.g., 'content/shop.html') on page load
-    loadContent('content/shop.html'); // Change this URL to your default content's URL
+    loadContent('content/gallery.html'); // Change this URL to your default content's URL
 });
