@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Example background color */
+    font-family: 'Your Font Family', sans-serif; /* Replace 'Your Font Family' with your chosen font */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Ensures the header stays on top of other content */
+    padding: 0%;
+    background-color: #f8f8f8; /* Example background color */
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Distributes space evenly */
+    align-items: baseline; /* Aligns items vertically */
+    border-bottom: 1px solid rgba(191, 191, 191, 0.5);
+}
+
+header h1 {
+    margin-left: 20%; /* Adjusts the space on the left */
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h1 a {
+    color: black;  /* Replace '#yourColor' with the hex code of your desired color */
+    text-decoration: none;  /* This removes the underline */
+}
+
+header nav {
+    margin-right: 20%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333; /* Example link color */
+}
+nav ul li :hover {
+    color: #909090;;
+}
+
+main {
+    padding-top: 140px; /* Adjust this value based on the height of your header */
+    padding-bottom: 60px; /* Adjust for the footer */
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #f8f8f8; /* Example background color */
+    font-size: 12px;
+    text-align: center;
+}
