@@ -71,7 +71,7 @@ nav ul li :hover {
 }
 
 main {
-    padding-top: 140px; /* Adjust this value based on the height of your header */
+    padding-top: 100px; /* Adjust this value based on the height of your header */
     padding-bottom: 60px; /* Adjust for the footer */
     text-align: center;
 }
